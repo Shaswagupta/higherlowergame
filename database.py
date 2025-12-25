@@ -1,0 +1,92 @@
+data = [
+# ---- TOP GLOBAL ----
+{"name":"Cristiano Ronaldo","follower_count":630,"description":"Footballer","country":"Portugal"},
+{"name":"Lionel Messi","follower_count":505,"description":"Footballer","country":"Argentina"},
+{"name":"Selena Gomez","follower_count":430,"description":"Singer and actress","country":"USA"},
+{"name":"Kylie Jenner","follower_count":400,"description":"Reality TV star","country":"USA"},
+{"name":"Dwayne Johnson","follower_count":395,"description":"Actor and wrestler","country":"USA"},
+{"name":"Ariana Grande","follower_count":380,"description":"Singer","country":"USA"},
+{"name":"Kim Kardashian","follower_count":365,"description":"Reality TV star","country":"USA"},
+{"name":"Beyonce","follower_count":320,"description":"Singer","country":"USA"},
+{"name":"Justin Bieber","follower_count":290,"description":"Singer","country":"Canada"},
+{"name":"Taylor Swift","follower_count":290,"description":"Singer","country":"USA"},
+
+# ---- SPORTS ----
+{"name":"Neymar Jr","follower_count":220,"description":"Footballer","country":"Brazil"},
+{"name":"LeBron James","follower_count":160,"description":"Basketball player","country":"USA"},
+{"name":"Virat Kohli","follower_count":270,"description":"Cricketer","country":"India"},
+{"name":"MS Dhoni","follower_count":45,"description":"Cricketer","country":"India"},
+{"name":"Rohit Sharma","follower_count":40,"description":"Cricketer","country":"India"},
+{"name":"Kevin Durant","follower_count":95,"description":"Basketball player","country":"USA"},
+{"name":"Kylian Mbappe","follower_count":110,"description":"Footballer","country":"France"},
+{"name":"Zlatan Ibrahimovic","follower_count":65,"description":"Footballer","country":"Sweden"},
+{"name":"Serena Williams","follower_count":18,"description":"Tennis player","country":"USA"},
+{"name":"Roger Federer","follower_count":15,"description":"Tennis player","country":"Switzerland"},
+
+# ---- ACTORS (HOLLYWOOD) ----
+{"name":"Leonardo DiCaprio","follower_count":65,"description":"Actor","country":"USA"},
+{"name":"Robert Downey Jr.","follower_count":58,"description":"Actor","country":"USA"},
+{"name":"Chris Hemsworth","follower_count":60,"description":"Actor","country":"Australia"},
+{"name":"Tom Holland","follower_count":67,"description":"Actor","country":"UK"},
+{"name":"Johnny Depp","follower_count":59,"description":"Actor","country":"USA"},
+{"name":"Will Smith","follower_count":70,"description":"Actor","country":"USA"},
+{"name":"Brad Pitt","follower_count":45,"description":"Actor","country":"USA"},
+{"name":"Angelina Jolie","follower_count":16,"description":"Actor","country":"USA"},
+{"name":"Scarlett Johansson","follower_count":55,"description":"Actor","country":"USA"},
+{"name":"Ryan Reynolds","follower_count":52,"description":"Actor","country":"Canada"},
+
+# ---- BOLLYWOOD ----
+{"name":"Shah Rukh Khan","follower_count":47,"description":"Actor","country":"India"},
+{"name":"Salman Khan","follower_count":65,"description":"Actor","country":"India"},
+{"name":"Aamir Khan","follower_count":25,"description":"Actor","country":"India"},
+{"name":"Akshay Kumar","follower_count":68,"description":"Actor","country":"India"},
+{"name":"Ranveer Singh","follower_count":45,"description":"Actor","country":"India"},
+{"name":"Deepika Padukone","follower_count":80,"description":"Actor","country":"India"},
+{"name":"Alia Bhatt","follower_count":75,"description":"Actor","country":"India"},
+{"name":"Katrina Kaif","follower_count":70,"description":"Actor","country":"India"},
+{"name":"Hrithik Roshan","follower_count":45,"description":"Actor","country":"India"},
+{"name":"Ajay Devgn","follower_count":35,"description":"Actor","country":"India"},
+
+# ---- SINGERS / MUSIC ----
+{"name":"Rihanna","follower_count":260,"description":"Singer","country":"Barbados"},
+{"name":"Drake","follower_count":145,"description":"Rapper","country":"Canada"},
+{"name":"The Weeknd","follower_count":120,"description":"Singer","country":"Canada"},
+{"name":"Eminem","follower_count":45,"description":"Rapper","country":"USA"},
+{"name":"Ed Sheeran","follower_count":115,"description":"Singer","country":"UK"},
+{"name":"Shakira","follower_count":90,"description":"Singer","country":"Colombia"},
+{"name":"Bruno Mars","follower_count":35,"description":"Singer","country":"USA"},
+{"name":"Lady Gaga","follower_count":55,"description":"Singer","country":"USA"},
+{"name":"Billie Eilish","follower_count":120,"description":"Singer","country":"USA"},
+{"name":"Post Malone","follower_count":25,"description":"Singer","country":"USA"},
+
+# ---- CREATORS / INTERNET ----
+{"name":"MrBeast","follower_count":105,"description":"YouTuber","country":"USA"},
+{"name":"PewDiePie","follower_count":110,"description":"YouTuber","country":"Sweden"},
+{"name":"Khaby Lame","follower_count":160,"description":"Content creator","country":"Italy"},
+{"name":"Logan Paul","follower_count":27,"description":"YouTuber","country":"USA"},
+{"name":"Jake Paul","follower_count":25,"description":"YouTuber","country":"USA"},
+{"name":"Emma Chamberlain","follower_count":16,"description":"YouTuber","country":"USA"},
+{"name":"Markiplier","follower_count":18,"description":"YouTuber","country":"USA"},
+{"name":"Jacksepticeye","follower_count":16,"description":"YouTuber","country":"Ireland"},
+{"name":"CarryMinati","follower_count":45,"description":"YouTuber","country":"India"},
+{"name":"BB Ki Vines","follower_count":25,"description":"YouTuber","country":"India"},
+
+# ---- BUSINESS / TECH ----
+{"name":"Elon Musk","follower_count":180,"description":"Entrepreneur","country":"USA"},
+{"name":"Bill Gates","follower_count":65,"description":"Entrepreneur","country":"USA"},
+{"name":"Mark Zuckerberg","follower_count":12,"description":"Tech CEO","country":"USA"},
+{"name":"Jeff Bezos","follower_count":8,"description":"Entrepreneur","country":"USA"},
+{"name":"Sundar Pichai","follower_count":10,"description":"Tech CEO","country":"USA"},
+
+# ---- EXTRA (to reach 150) ----
+{"name":"Zendaya","follower_count":185,"description":"Actor","country":"USA"},
+{"name":"Gal Gadot","follower_count":108,"description":"Actor","country":"Israel"},
+{"name":"Jason Momoa","follower_count":95,"description":"Actor","country":"USA"},
+{"name":"Keanu Reeves","follower_count":25,"description":"Actor","country":"Canada"},
+{"name":"Henry Cavill","follower_count":30,"description":"Actor","country":"UK"},
+{"name":"Anushka Sharma","follower_count":67,"description":"Actor","country":"India"},
+{"name":"Priyanka Chopra","follower_count":90,"description":"Actor","country":"India"},
+{"name":"Nick Jonas","follower_count":35,"description":"Singer","country":"USA"},
+{"name":"Cardi B","follower_count":170,"description":"Rapper","country":"USA"},
+{"name":"Doja Cat","follower_count":85,"description":"Singer","country":"USA"},
+]
